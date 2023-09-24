@@ -1,0 +1,17 @@
+n=int(input("enter a positive number"))
+i=1
+f=1
+if n==0:
+    print(1)
+elif n<0:
+    print("invalid output")
+while True:
+    if n<0:
+        break
+    else:
+        i=i+1
+        f=f*i
+    
+    print(f)
+
+    

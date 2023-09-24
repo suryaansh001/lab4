@@ -1,0 +1,20 @@
+s=input()
+low=0
+up=0
+spec=["!,"@","#","$","%","^","&","*","(",")","=","+","-","/","\","?"]]
+sp=0
+num=0
+while True:
+    if "a"<=s[i]<="z":
+        low+=1
+    elif "A"<=s[i]<="Z":
+        up+=1
+    elif s[i] in spec:
+        sp+=1
+    else:
+        num+=1
+
+print("lower case are",low)
+print("upper case are",up)
+print("special cases are",sp)
+print("numbers are",num)

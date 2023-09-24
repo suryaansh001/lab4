@@ -1,0 +1,9 @@
+a,b,c=map(int,input().split())
+D=(b**2-4*c*a)
+X1=round(((-b+D)/(2*a)),2)
+X2=round(((-b-D)/(2*a)),2)
+if a==0 or D<0:
+    print("invalid")
+else:
+    print(X1,X2)
+

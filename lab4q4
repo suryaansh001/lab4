@@ -1,0 +1,16 @@
+N=int(input())
+i=1
+count=0
+count_1=0
+while N!=-999:
+    if i%N==0:
+        count=count+1
+    elif i%N!=0:
+        count_1=count_1 +1
+
+    i+=1
+print(" count of numbers not divisble by N are",count_1)
+print(" count of numbers divisible by N are:",count)
+
+
+

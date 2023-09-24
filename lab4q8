@@ -1,0 +1,14 @@
+a=int(input())
+i=2
+if a<=0 :
+    print("invalid input")
+elif a==1:
+    print("neither prime nor composite")
+while i<a:
+    if a%i==0:
+        print(" it is not prime")
+        break
+    else:
+        print("prime")
+        break     
+    i=i+1
